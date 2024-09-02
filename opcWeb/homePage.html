@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en"> <!-- page language -->
+	<head>
+		<meta charset="utf-8"> <!-- special caracter encoding -->
+		<title>Website sandbox</title>
+		<link href="styleHomePage.css" rel="stylesheet">
+	</head>
+	<body>
+		<header id="bckHeader">
+			<div><a href="homePage.html" id="home">HOME</a></div>
+		</header>
+	<main>
+		<div class="BackPage">
+		<div class="Banner">
+		<h1 class="bordTitle Title"> Sandbox for study </h1> <!-- <h1></h1> tilte level 1 -->
+		</div>
+		
+		<p id="mainParagraph">
+			This is my first paragraph, and it might be a bit long for a first.</br>And here, is my second paragraph. That's all folks.
+		</p>
+		<h4 class="index">Index :</h4>
+		<div class="paragraph text">
+			Go to "page 2" ->
+			<a href="#hypertext"><strong>Here</strong></a> <!-- add a '#' before the attribut value to create a link toward the anchor. -->
+			<br>See <a href="#about"> about</a> the site.
+		</div ><br> <!-- <br> BREAK (or back to line) -->
+
+		<h3 class="elemlist">First list :</h3> 
+		<ul>
+			<!-- <ul></ul> unordered list of element -->
+			<li> Favourite animal :
+				<ul>
+					<li>Fox<!--<a href="redFox.jpg" target="_blank">Fox-->
+						<a href="redFox.jpg" target="_blank"><img src="small_fox.jpg" alt="picture not mine" title="Click to see a fox" id="fox_img"></a>
+					</a>
+					<!--<img src="redFox.jpg" alt="..." title="a red fox" id="fox">-->
+					</li><!-- Here we-ve applied various property with the class "imgFox"--> <!-- <li></li> beacons for listed item --> 	
+					<li><!--<a href="wolf.jpg" target="_blank"-->Wolf</li>
+					<li><!--<a href="dog.jpg" target="_blank"-->Dog</li>
+					<li><!--<a href="bear.jpg" target="_blank"-->Bear</li>
+					<li><!--<a href="cat.jpg" target="_blank"-->Cat</li>
+					<li><!--<a href="rabbit.jpg" target="_blank"-->Rabbit/bunny</li>
+				</ul>
+			</li>
+			
+		</ul>
+
+		<h3 id="hypertext">Hypertext link below.</h3> <!-- id to create the anchor. -->
+		<p>Second page : <a href="secondPage.html" id="click"><strong>Click here!</strong></a>. <!-- target="_blank" to open in a new tab --><br></p>
+		</div>
+	</main>
+
+		<footer>
+			<p id="about">About :<a href="about.html" target="_blank">about</a></p>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+<!-- Resume of some html code line and their uses. -->
+<!-- <p>Paragraph</p> -->
+<!-- <br> BREAK (or back to line) -->
+<!-- <h1></h1> tilte level 1 -->
+<!-- <h2></h2> title level 2 or subtitles (!= Closed Captions) -->
+<!-- <h3></h3> title level 3 (or a sort of subsection of the level 2) -->
+<!-- <a href="file_where_anchor_is.html#my_anchor">name_anchor</a> when anchor is in another page.-->
+<!-- href="mailto:NOMDUMAIL@MAIL.COM" open mail box with a blank new mail --> 
+<!-- href="NOMDEFICHIER.EXTENSION" download a file located in the same repository as your web page.-->
+<!-- href="../filename.html" if the file is in upper repository from the web page repository-->
+<!-- <a href="redFox.jpg">Fox</a> -- Here we have the anchor to the big pictures. -->
+<!-- attribute 'class' to apply a style to one element among other-->
+<!-- attribute 'id' to apply a unique element in his type -->
+<!-- <span></span> tag of the type "inline" wich is placed inside a paragraph to select certain word only, like the tag <strong></strong> and <em></em> who are from the same family of "inline"-->
+<!-- <div></div> tag of the type "block" who surround a text like with tag <p></p> and <h1></h1>. Those tags have a common thing they create a new "bloc" in the page who provoc a back to line. <div></div> is the most used.--> 
+
+<!-- adding a background image (exemple)
+HTML :
+<body>
+    <div class="banniere">
+        <h1>Mon blog</h1>
+    </div> <div> is a block tag unlike <span> who's a inline tag.
+    <p>Ceci est le contenu de mon premier paragraphe</p>
+    <p>Ceci est le contenu de mon deuxième paragraphe</p>
+</body>
+-->
+<!-- <nav></nav> tag for navigation menu -->
+<!-- <main></main> only one per page --> 
+<!-- <section></section> create groupe by themes-->
+<!--
+<header>  : en-tête ;
+
+<footer>  : pied de page ;
+
+<nav>  : liens principaux de navigation ;
+
+<section>  : section de page ;
+
+<aside>  : informations complémentaires ;
+
+<article>  : article indépendant.
+	-->
+<!-- margin: 2px 0 3px 1px; or 2px for margin-top; 0px for margin-right; 3px for margin-bottom; 1px for margin-left  -->

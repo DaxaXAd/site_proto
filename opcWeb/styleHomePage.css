@@ -1,0 +1,185 @@
+/** {
+	margin: 5px 2px 5px 2px ;
+}*/
+
+body {
+	background-color: midnightblue;
+	color: whitesmoke;
+}
+
+a {
+	color: red;
+}
+
+a:visited {
+	color: hotpink;
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.733);
+	color: grey;
+	padding: 0.2em;
+	border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	margin: auto;
+}
+
+ul {
+	column-width: auto;
+}
+
+.elemlist {
+	text-decoration: underline;
+}
+
+
+.Title {
+	/*margin-left: 10.2em;
+	margin-right: 10.2em;*/
+	padding-top: 0.24em;/*exemple: padding-top: 100% => 1:1 Aspect Ratio */
+	padding-bottom: 0.24em;
+	padding-left: 4.2em;
+	padding-right: 4.2em;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+.bordTitle {
+	border-top: 3px #11afff double;
+	border-bottom: 3px #11afff double;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.Banner {
+	padding: 65px; /* padding to add space in our element*/
+	background-image: url('forestbanner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.74;
+	border-radius: 5px 5px 5px 5px;
+}
+
+p[id= "mainParagraph" ] {
+	text-align: center;
+	margin: 25px 0 3px 0;
+}
+
+#fox {
+	top: 0.15em;
+	bottom: 1em;
+	width: 5em;
+	position: relative;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0);
+}
+
+#fox_img {
+	top: 0.15em;
+	width: 2.5em;
+	position: relative;
+	transition: transform .2s; /* Animation */
+	box-shadow: 2px 2px 2px rgba(0, 0, 0);
+	margin: 0 auto;
+}
+
+#fox_img:hover {
+	transform: scale(4.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/*#bckHeader {
+	background: rgba(2, 2, 2, 0.8);
+}*/
+
+#home {
+	font-weight: 800;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover { /* When the mouse hover the element we wanted (here is the tag 'a') */
+	color: cyan;
+}
+
+a:active { /* When interacting with the element here it's the same as the one for hover */
+	background-color: lightgreen;
+}
+
+a:focus {
+    background-color: #FCFFA6;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+/* 1em = 32px */
+/* 'px' for absolute value */
+/* 'em' for relative value, such as using a percentage. (recommended) */
+/* font-family to change the fonts */
+/* font-style to make in italic (i.e.) or normal */
+/* font-weight to change to thiner or bolder the fonts */
+/* text-decoration for i.e. underline; line-through a text or a word */
+/* text-align with left; center; right and justify the text */
+
+/*@font-face { font-family: "Segoe UI Adjusted"; 
+src: local(Segoe UI Bold); 
+font-weight: 700; 
+ascent-override: 90%; }*/
+
+/*
+adding a background image (exemple)
+HTML : go to firstSiteHTML.html file.
+
+CSS : 
+body {
+    font-family: sans-serif;
+    margin: 0; /* Vous ne connaissez pas encore cette propriété mais elle permet de s'assurer que nos éléments prennent bien toute la largeur de la page 
+}
+
+.banniere {
+    padding: 100px; /* Vous ne connaissez pas encore cette propriété mais elle permet d'ajouter de l'espace dans notre élément
+    background-image: url('paysage.jpg');
+}
+border type : solid; double; dotted; dashed
+*/
+
+/*
+
+* {
+	(to select all tag without exceptions)
+}
+
+a[(attribute:)title] {
+	(to select all hypertext possessing an attribut "title" )
+}
+
+a[attribute = "value"] {
+	(same as before but the attribute must precisely have the "value" we're seeking)
+	(ex: a[title="value"] so attribute title with the value "Click here")
+}
+
+a[attribute*="a bit of the value"] {
+	(same as before but select all <a> with an attribute title who have an attribute that contains "part of the value asked")
+	(ex: a[title*="here"] so the attribute must have in his value the word "here")
+}
+
+*/
